@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+// clang-format off
 
 #define MAX(A, B)               ((A) > (B) ? (A) : (B))
 #define MIN(A, B)               ((A) < (B) ? (A) : (B))
@@ -6,3 +7,5 @@
 
 void die(const char *fmt, ...);
 void *ecalloc(size_t nmemb, size_t size);
+
+// clang-format on

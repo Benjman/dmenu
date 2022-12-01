@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+// clang-format off
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,3 +35,4 @@ ecalloc(size_t nmemb, size_t size)
 		die("calloc:");
 	return p;
 }
+// clang-format on

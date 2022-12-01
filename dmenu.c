@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+// clang-format off
 #include <ctype.h>
 #include <locale.h>
 #include <stdio.h>
@@ -793,3 +794,4 @@ main(int argc, char *argv[])
 
 	return 1; /* unreachable */
 }
+// clang-format on

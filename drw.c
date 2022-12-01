@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+// clang-format off
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -448,3 +449,4 @@ drw_cur_free(Drw *drw, Cur *cursor)
 	XFreeCursor(drw->dpy, cursor->cursor);
 	free(cursor);
 }
+// clang-format on
