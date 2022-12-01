@@ -25,5 +25,7 @@ static unsigned int lines      = 25;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+/* Size of the window border */
+static unsigned int border_width = 3;
 
 // clang-format on
